@@ -69,10 +69,10 @@ h1{
   <h2 v-click >My expectation before the course:</h2>
   <br>
   <div class='h-55 w-100 flex'>
-    <img v-click class='w-1/2-a' src='assets/debug.jpg'>
+    <img v-click class='w-1/2-a' src='/assets/debug.jpg'>
     <div v-click class='w-1/2-a ml-2 text-center flex justify-center items-center'> 
         <!-- <div> -->
-        <img class='h-25' src='assets/shout.png'>
+        <img class='h-25' src='/assets/shout.png'>
         <!-- </div> -->
     </div>
    
@@ -81,7 +81,7 @@ h1{
 
 <div  v-after class='w-1/2-a border-l-2 border-dashed border-black pl-4'>
   <h2 v-click >However...</h2>
-  <img v-after class src='assets/Math.jpg'><img>
+  <img v-after class src='/assets/Math.jpg'><img>
 </div>
 </div>
 <br>
@@ -753,21 +753,21 @@ src: ./pages/application.md
 
 <div class='h-50 w-50 zip' v-click='1'  >
 
-<img src='assets/jpeg.svg' />
+<img src='/assets/jpeg.svg' />
 
 </div>
 
 
 <div class='h-50 w-50 mp3 ml-25' v-click='2'  >
 
-<img src='assets/mp3.svg' />
+<img src='/assets/mp3.svg' />
 
 </div>
 
 
 <div class='h-50 w-50 jpeg ml-25' v-click='3' >
 
-<img src='assets/zip.svg' />
+<img src='/assets/zip.svg' />
 
 </div>
 
