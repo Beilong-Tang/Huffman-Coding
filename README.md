@@ -12,5 +12,5 @@ In order to start the ppt:
 
 2. Visit Online:
 
-
+http://dku-vcm-2630.vm.duke.edu/static/cs203/presentation/huffman_coding
 

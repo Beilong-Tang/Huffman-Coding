@@ -69,10 +69,10 @@ h1{
   <h2 v-click >My expectation before the course:</h2>
   <br>
   <div class='h-55 w-100 flex'>
-    <img v-click class='w-1/2-a' src='/assets/debug.jpg'>
+    <img v-click class='w-1/2-a' src='/debug.jpg'>
     <div v-click class='w-1/2-a ml-2 text-center flex justify-center items-center'> 
         <!-- <div> -->
-        <img class='h-25' src='/assets/shout.png'>
+        <img class='h-25' src='/shout.png'>
         <!-- </div> -->
     </div>
    
@@ -81,7 +81,7 @@ h1{
 
 <div  v-after class='w-1/2-a border-l-2 border-dashed border-black pl-4'>
   <h2 v-click >However...</h2>
-  <img v-after class src='/assets/Math.jpg'><img>
+  <img v-after class src='/Math.jpg'><img>
 </div>
 </div>
 <br>
@@ -453,11 +453,11 @@ A rooted tree where each node has at most two children is called a **binary tree
 <div class='flex' v-click>
 
 <div class='ml-40 h-400 w-50'>
-<img class='' src ='/assets/Full_binary.svg' />
+<img class='' src ='/Full_binary.svg' />
 </div>
 
 <div class='ml-20 h-400 w-50'>
-<img class='' src ='/assets/Sorted_binary_tree.svg' />
+<img class='' src ='/Sorted_binary_tree.svg' />
 </div>
 
 </div>
@@ -753,21 +753,21 @@ src: ./pages/application.md
 
 <div class='h-50 w-50 zip' v-click='1'  >
 
-<img src='/assets/jpeg.svg' />
+<img src='/jpeg.svg' />
 
 </div>
 
 
 <div class='h-50 w-50 mp3 ml-25' v-click='2'  >
 
-<img src='/assets/mp3.svg' />
+<img src='/mp3.svg' />
 
 </div>
 
 
 <div class='h-50 w-50 jpeg ml-25' v-click='3' >
 
-<img src='/assets/zip.svg' />
+<img src='/zip.svg' />
 
 </div>
 
