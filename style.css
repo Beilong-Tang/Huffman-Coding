@@ -1,0 +1,16 @@
+
+.bg-main {
+    background-color: rgba(243,232,255,1) !important;
+  }
+
+h1 {
+  line-height: 4rem !important;
+}
+
+.ft-18 {
+  font-size: 15px
+}
+
+.slidev-layout h1 + p{
+  opacity: 1;
+}

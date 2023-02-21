@@ -1,0 +1,24 @@
+{
+  "name": "cs203",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.40.3",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "sass": "^1.58.3",
+    "slidev-theme-mokkapps": "^1.1.0",
+    "slidev-theme-penguin": "^1.6.1",
+    "slidev-theme-unicorn": "^1.1.1",
+    "vite-svg-loader": "^4.0.0",
+    "vue-mermaid": "^0.0.15"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.23",
+    "playwright-chromium": "^1.30.0"
+  }
+}
