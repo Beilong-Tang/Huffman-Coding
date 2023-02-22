@@ -38,4 +38,9 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
     top:40% !important;
     margin-left:20px
   }
+
+  p{
+    font-size:24px;
+  }
+  
 </style>

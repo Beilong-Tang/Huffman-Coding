@@ -62,7 +62,7 @@
 <div class='absolute frequency w-100' v-click = '2' >
 
 
-```mermaid {'themeVariables': {'edgeLabelBackground':'none' }  }
+```mermaid {'themeVariables': {'edgeLabelBackground':'none', 'fontSize': '23px' }  }
 flowchart TB;
     R1((4))-->B((1))
     R1-->D((3))
@@ -79,7 +79,7 @@ flowchart TB;
 <div class='absolute frequency w-100' v-click = '5' >
 
 
-```mermaid {'themeVariables': {'edgeLabelBackground':'none' }  }
+```mermaid {'themeVariables': {'edgeLabelBackground':'none', 'fontSize': '23px' }  }
 flowchart TB;
     R2((9))-->R1((4))
     R2((9))-->A((5))
@@ -98,7 +98,7 @@ flowchart TB;
 <div class='absolute frequency w-100' v-click = '8' >
 
 
-```mermaid {'themeVariables': {'edgeLabelBackground':'none' }  }
+```mermaid {'themeVariables': {'edgeLabelBackground':'none', 'fontSize': '23px' }  }
 flowchart TB;
 
     R3((15))-->C((6))
@@ -122,7 +122,7 @@ flowchart TB;
 <div class='absolute frequency w-100' v-click = '10' >
 
 
-```mermaid {'themeVariables': {'edgeLabelBackground':'#fef9c3' }  }
+```mermaid {'themeVariables': {'edgeLabelBackground':'#fef9c3', 'fontSize': '23px' }  }
 flowchart TB;
 
     R3((15))-->|0|C((6))
@@ -180,7 +180,7 @@ flowchart TB;
   table {
     margin-top:20px;
     border: 1px solid black;
-    font-size:14px;
+    font-size:20px;
     width:40% !important;
   }
 

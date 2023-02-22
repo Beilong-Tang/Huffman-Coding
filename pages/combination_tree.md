@@ -10,14 +10,14 @@ For each element, we have two choices.
 </div>
 
 
-<div style="height:300px">
+<div style="height:327px">
 
 
 <!-- Animation 1 -->
 
 <div v-click class='absolute diagram'>
 
-```mermaid {'themeVariables': {'edgeLabelBackground':'none' }  }
+```mermaid {'themeVariables': {'edgeLabelBackground':'none','fontSize': '23px' }  }
 graph TB;
     A((0))-->|0|B((a))
     A-->|1|C((a))
@@ -47,7 +47,7 @@ graph TB;
 
 <div v-click class='absolute diagram'>
 
-```mermaid {'themeVariables': {'edgeLabelBackground':'#fef9c3' }  }
+```mermaid {'themeVariables': {'edgeLabelBackground':'#fef9c3','fontSize': '23px' }  }
 flowchart TB;
     A((0))-->|0|B((a))
     A-->|1|C((a))
@@ -105,6 +105,7 @@ We call '000' the **label** of the left most leaf.
         background-color: rgba(243,232,255,1) !important;
         width:500px !important;
         left:22%;
+        /* top:10px; */
     }
 
     .edgeLable{

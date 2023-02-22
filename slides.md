@@ -33,7 +33,7 @@ colorSchema: 'light'
 
 <!--  -->
 
-<div class='mt-10'>
+<div class='mt-10 author'>
   Beilong Tang
   <br>
   Guanglei Cheng
@@ -57,6 +57,10 @@ The last comment block of each slide will be treated as slide notes. It will be 
 h1{
   font-size:60px !important;
   line-height: 10rem !important;
+}
+
+.author{
+  font-size:18px !important;
 }
 </style>
 
@@ -120,8 +124,12 @@ gradientColors: ['#8EC5FC', '#E0C3FC']
 }
 
 li {
-  font-size:20px !important;
-  margin-top:10px;
+  font-size:25px !important;
+  margin-top:20px;
+}
+
+strong{
+  font-size:23px;
 }
 </style>
 
@@ -132,9 +140,9 @@ image: https://source.unsplash.com/collection/94734566/1920x1080layout
 
 # Contents
 
-- Introduction
+- **Introduction**
 
-- **Background**
+- Background
 
 - Implementation
 
@@ -164,6 +172,10 @@ image: https://source.unsplash.com/collection/94734566/1920x1080layout
     position:absolute !important;
     top:40% !important;
     margin-left:20px
+  }
+
+  p{
+    font-size:24px;
   }
 
 </style>
@@ -208,6 +220,10 @@ Huffman Coding was invented when he was having a final exam to find the most eff
 }
 .footnote-backref {
   display: none;
+}
+
+p{
+  font-size:19px !important;
 }
 </style>
 
@@ -272,6 +288,10 @@ What is behind:
 
 code{
   font-size:16px
+}
+
+p{
+  font-size:20px
 }
   </style>
 
@@ -343,13 +363,18 @@ Since we only have 4 characters here, 2 bits will do the job.
 | C | 10 |
 | D | 11 |
 
-In total, we will use $2 \times 15 \text{ (total bit number of String)} + (8+2) \times 4 \text{ (the above table)} = 70$ bits
+</div>
+
+<div v-click>
+
+In total, we will use $2 \times 15 \times \text{ (total bit number of String)} \\ + (8+2) \times 4 \text{ (the above table)} = 70$ bits
 
 </div>
 
 <style>
   table {
-    width:50% !important
+    width:50% !important;
+    font-size:19px;
   }
   </style>
 
@@ -359,7 +384,11 @@ Can we represent the String 'BCAADDDCCACACAC' with even less bits?
 
 <div v-click>
 
-We calculated the frequency of each character:
+**Higher frequency => lower bits.**
+
+</div>
+
+<div v-click>
 
 |  Character   |  Frequency   | Bits  |
 | --- | --- | ---|
@@ -372,7 +401,7 @@ We calculated the frequency of each character:
 
 <div v-click >
 
-In total, we will use $2 \times 15 \text{ (total bit number of String)} + (8 \times 4 + 1 + 2 + 1 + 2) \text{ (the above table)} = 68$ bits
+In total, we will use $2 \times 15 \text{ (total bit number of String)} \\ + (8 \times 4 + 1 + 2 + 1 + 2) \text{ (the above table)} = 68$ bits
 
 </div>
 
@@ -432,6 +461,10 @@ Any representation bits cannot be the prefix of another representation bits.
     position:relative;
     margin-top:-25px
   }
+
+  code {
+    font-size:19px
+  }
   </style>
 
 ---
@@ -476,7 +509,7 @@ For any binary tree with left child labelled 1 and right child labelled 0, the l
 
 <div class='w-1/3-a ml-10' v-click>
 
-```mermaid {'themeVariables': {'edgeLabelBackground':'none' }  }
+```mermaid {'themeVariables': {'edgeLabelBackground':'none','fontSize': '22px' }  }
 flowchart TB;
     A((R))-->|0|B((A))
     A-->|1|C((N))
@@ -513,7 +546,7 @@ flowchart TB;
 
 <div v-click>
 
-Huffman Coding: Higher Frequency => Fewer Bits => Larger Distance
+**Huffman Coding: Higher Frequency => Fewer Bits => Larger Distance**
 
 </div>
 
@@ -589,7 +622,7 @@ First, we iterate the String and calculate the frequency of each character:
   table {
     margin-top:20px;
     border: 1px solid black;
-    font-size:14px;
+    font-size:20px;
     width:40% !important;
   }
 
@@ -612,11 +645,11 @@ src: ./pages/huffman_tree.md
 
 # 4. Find binary representation for each character
 
-<div class='flex'>
+<div class='flex mt--9'>
 
 <div class='w-1/3-a ml-10'>
 
-```mermaid {'themeVariables': {'edgeLabelBackground':'#fef9c3' }  }
+```mermaid {'themeVariables': {'edgeLabelBackground':'#fef9c3','fontSize': '23px' }  }
 flowchart TB;
 
     R3((15))-->|0|C((6))
@@ -650,12 +683,12 @@ flowchart TB;
 </div>
 
 
-<div v-click>
+<div v-click class='mt--5'>
 
 ```bash
-10000100100001101000001010000010100010001000100010001000100001101000011010000010100001101000001010000110100000101000011 # 120
+10000100100001101000001010000010100010001000100010001000100001101000011010000010100001101000001010000110100000101000011 #120
 
-1000111110110110100110110110 # 28
+1000111110110110100110110110 #28
 ```
 
 </div>
@@ -664,7 +697,7 @@ flowchart TB;
 
 table {
     border: 1px solid black;
-    font-size:14px;
+    font-size:20px;
     width:40% !important;
   }
 
@@ -677,6 +710,10 @@ table {
     border: 1px solid black;
   }
 
+  code{
+    font-size:12.5px
+  }
+
   </style>
 
 
@@ -686,7 +723,7 @@ table {
 
 <div v-click>
 
-Wee need to send:
+We need to send:
 - the coded string
 - the information needed to construct a huffman tree
 
@@ -700,21 +737,41 @@ Wee need to send:
 | B | 1 | 100 | $1 \times 3 = 3$ |
 | C | 6 | 0 | $6 \times 1 = 6$ |
 | D | 3 | 101| $3 \times 3 = 9$ |
-| $8 \times 4 = 32$ bits | $5 + 1 + 6 + 3 = 15$ bits |            |$10 + 3 + 6 + 9 = 28$ bits|
+| $8 \times 4 = 32$ bits | $5 + 1 + 6 + 3 = 15$ bits |   |$10 + 3 + 6 + 9 = 28$ bits|
 
 </div>
 
 <br>
 
-<div v-click>
+<div v-click class='absolute total'>
 
-$32 + 15 + 28 = 75$ bits
+<strong style='color:red'>32 + 15 + 28 = 75 bits in total </strong>
 
 </div>
 
 <style>
   table{
-    font-size:12px;
+    font-size:20px;
+  }
+
+  p {
+    font-size:20px;
+  }
+  li {
+    font-size:20px
+  }
+
+  .total{
+    left:480px;
+    top:130px;
+  }
+
+  th:nth-child(3){
+    width:100px
+  }
+
+  strong{
+    font-size:25px
   }
 
   </style>
@@ -723,6 +780,8 @@ $32 + 15 + 28 = 75$ bits
 src: ./pages/application.md
 ---
 
+---
+clicks: 3
 ---
 
 # Application
@@ -792,6 +851,10 @@ src: ./pages/application.md
 
   h1{
 
+  }
+
+  li{
+    font-size:22px;
   }
 
   </style>

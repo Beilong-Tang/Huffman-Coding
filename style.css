@@ -14,3 +14,15 @@ h1 {
 .slidev-layout h1 + p{
   opacity: 1;
 }
+
+p{
+  font-size:20px
+}
+
+table{
+  font-size:19px;
+}
+
+code {
+  font-size:19px
+}
