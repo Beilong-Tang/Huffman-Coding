@@ -1,6 +1,6 @@
 # Huffman Coding
 
-This is my presentation of 2023 Spring CS203.
+This is my presentation of 2023 Spring CS203. (Author: Beilong Tang and Guanglei Cheng)
 
 In order to start the ppt:
 

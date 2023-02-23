@@ -27,7 +27,7 @@ colorSchema: 'light'
 
 ---
 
-# Huffman Codings
+# Huffman Coding
 
 <!-- Presentation slides for developers -->
 
@@ -192,15 +192,15 @@ introImage: 'https://www1.ucsc.edu/currents/99-00/art/huffman_david.99-10-11.jpg
 
 <div>
 
-<div v-click>
+<div v-click class='mt--10'>
 
-David Albert Huffman (August 9, 1925 – October 7, 1999) was an American pioneer in computer science, known for his Huffman coding. Huffman is best known for Huffman coding, which he published while a ScD student at MIT in 1952.[^1]
+David Albert Huffman (August 9, 1925 – October 7, 1999) was an American pioneer in computer science. Huffman is best known for Huffman coding, which he published while a ScD student at MIT in 1952.[^1]
 
 </div>
 
 <div v-click>
 
-Huffman Coding was invented when he was having a final exam to find the most efficient binary code, where Huffman was not satisfied by any of them. he hit upon the idea of using a frequency-sorted binary tree and quickly proved this method the most efficient.[^2]
+Huffman and his classmates were given the choice of a term paper or a final exam in a CS course. Huffman was assigned a term paper on the problem of finding the most efficient binary code. Huffman, unable to prove any codes were the most efficient, was about to give up and start studying for the final when he hit upon the idea of Huffman Coding which was proved to be the most efficient.[^2]
 
 [^1]: [David A. Huffman](https://en.wikipedia.org/wiki/David_A._Huffman)
 [^2]: [Huffman coding](https://en.wikipedia.org/wiki/David_A._Huffman)
@@ -214,7 +214,7 @@ Huffman Coding was invented when he was having a final exam to find the most eff
   @apply mt-20 opacity-10;
 }
 .footnotes {
-  margin-top:-40px !important;
+  margin-top:-75px !important;
   font-size:0.01px !important;
   @apply text-sm opacity-75;
 }
@@ -223,7 +223,7 @@ Huffman Coding was invented when he was having a final exam to find the most eff
 }
 
 p{
-  font-size:19px !important;
+  font-size:18px !important;
 }
 </style>
 
@@ -502,7 +502,7 @@ src: ./pages/combination_tree.md
 
 # Labelled Binary Tree
 
-For any binary tree with left child labelled 1 and right child labelled 0, the label of the leaf will not be any prefix of another label of the leaf.
+For any binary tree with right child labelled 1 and left child labelled 0, the label of the leaf will not be any prefix of another label of the leaf.
 
 
 <div class='flex'>
@@ -538,7 +538,7 @@ flowchart TB;
 |  Character   | Bits  |
 | --- | ---|
 | A |  0 |
-| B |  1 |
+| B |  11 |
 | C |  100 |
 | D |  101 |
 
